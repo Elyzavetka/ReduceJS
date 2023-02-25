@@ -7,13 +7,13 @@
 //console.log("=========");
 //console.log(b);
 
-let a = [4, -5, 7, -6, 2];
+let a = [-3, 4, -5, 7, -6, 2];
 
 let b = a.reduce((accum, item) => {
   if (item > 0) {
     accum += item;
   }
   return accum;
-});
+}, 0);
 console.log("=========");
 console.log(b);
